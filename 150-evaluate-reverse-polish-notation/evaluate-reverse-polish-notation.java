@@ -5,9 +5,7 @@ class Solution {
         for(String s : tokens){
             if(!s.equals("/")&&!s.equals("+")&&!s.equals("-")&& !s.equals("*")){
                     int num = Integer.parseInt(s);
-            if(num >= -200  &&  num <= 200){
-                stack.push(num);
-            }
+                    stack.push(num);
             }
             
             else{
